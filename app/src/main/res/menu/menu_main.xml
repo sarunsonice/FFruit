@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/file"
+        android:title="Information">
+        <menu>
+            <item
+                android:id="@+id/mnuNew"
+                android:icon="@drawable/fruit"
+                android:title="BySarunSoNice" />
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/mnuAbout"
+        android:icon="@drawable/fruit"
+        app:showAsAction="ifRoom|withText"
+        android:title="Contact"/>
+    <item
+        android:id="@+id/mnuHelp"
+        android:title="Help" />
+</menu>
